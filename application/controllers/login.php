@@ -32,7 +32,7 @@ class login extends CI_Controller
             $this->session->set_userdata('level', $row->level);
 
             if ($this->session->userdata('level') == "admin") {
-                redirect('Home/index');
+                redirect('Home');
             } elseif ($this->session->userdata('level') == "user") {
                 redirect('Home2');
                 //controller dan fungsi

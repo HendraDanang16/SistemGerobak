@@ -10,7 +10,7 @@
 			$this->load->view('template/footer');
 			$this->load->library('session');
 			
-			if($this->session->userdata('level')!="admin"){
+			if($this->session->userdata('level')!="user"){
 				redirect('login','refresh');
 			}
 		

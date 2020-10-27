@@ -21,13 +21,13 @@
             <a class="nav-link active" href="<?= base_url(); ?>Home">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="<?= base_url(); ?>siswa">Data Siswa</a>
+            <a class="nav-link" href="<?= base_url(); ?>">Data</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="<?= base_url(); ?>guru">Data Guru</a>
+            <a class="nav-link" href="<?= base_url(); ?>">Data </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="<?= base_url(); ?>matapelajaran">Data Mata Pelajaran</a>
+            <a class="nav-link" href="<?= base_url(); ?>barang">Data Barang</a>
         </li>
         <li class="nav-item"><a class="nav-link" href=""></a></li>
         <li class="nav-item"><a class="nav-link" href=""></a></li>
